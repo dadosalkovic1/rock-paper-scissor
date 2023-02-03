@@ -1,0 +1,34 @@
+body{
+    background-color: gainsboro;
+}
+
+#rock{
+    background-image;:url("bolnica.jpg")
+}
+
+#paper{
+    background-image: url("papir.png");
+}
+
+#scissor{ 
+    background-image: url("makaze.png"); 
+}
+
+.button{
+display: block;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.grid-display{
+    display:grid;
+    place-content: center;
+}
